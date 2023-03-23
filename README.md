@@ -13,7 +13,7 @@ This project uses the following stack:
 - Google API
 
 ## Setup Guide
-### - Enable the Gmail API and Create Credentials
+- ### Enable the Gmail API and Create Credentials
 
 # How To Use?
 python main.py
