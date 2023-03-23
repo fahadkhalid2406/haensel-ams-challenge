@@ -9,13 +9,32 @@ Overall, this project is a simple but effective demonstration of how to use the 
 
 ## Technical Aspects
 This project uses the following stack:
-- Python
+- Python3
 - Google API
 
 ## Setup Guide
 - ### Enable the Gmail API and Create Credentials
   To use the Gmail API, you need to enable it in the Google Cloud Console. Follow these steps below or you can follow <a 
   href="https://developers.google.com/gmail/api/quickstart/python">Quick Start Gude for Python</a>
+  
+  - Go to the <a href="https://console.developers.google.com/">Google Cloud Console.</a>
+  - Click the project drop-down and select or create a project.
+  - Click Continue.
+  - Click the Navigation menu and select APIs & Services > Dashboard.
+  - Click ENABLE APIS AND SERVICES.
+  - Search for "Gmail API" and select it.
+  - Click ENABLE.
+  - Click Create credentials.
+  - Select OAuth client ID.
+  - Choose Desktop App, and give it a name.
+  - Click Create.
+  - Click Download to download the credentials in JSON format.
+  - Rename the downloaded file to credentials.json and save it in your project directory.
+- ### Install Required Packages
+  To use the Google API you will need to intsall the required packages 
+  ```python
+  pip3 install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+  ```
 
 # How To Use?
 python main.py
