@@ -41,9 +41,9 @@ This project uses the following stack:
   - Modify the Recipent Email under env_varibales.py
   - Modify the Subject & Body of the email
   - Navigate to the project directory in your terminal.
-  '''python
+  ```python
   python main.py
-  '''
+  ```
   - During execution it will promt for the Google API authorzation
   - The first time you run the sample, it prompts you to authorize access:
     - If you're not already signed in to your Google Account, you're prompted to sign in. If you're signed in to multiple accounts, select one account to use for authorization.
