@@ -2,8 +2,6 @@ from configs import Config
 from gmail_auth import GmailAuth
 from email_ops import Email
 
-
-
 def main():
     Config().load_configs()
     GmailAuth().authentication(Config().scope,Config().tokenJson,Config().credentialsJson)
