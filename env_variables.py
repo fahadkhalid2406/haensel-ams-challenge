@@ -1,0 +1,7 @@
+SCOPE = 'scopes.yaml'
+KEYWORDS = 'keywords.yaml'
+RECIPENT = 'syedfahadkhalid93@gmail.com'
+SUBJECT = 'Test Subject To Send Email'
+BODY = 'This is a sample test message to send email'
+CREDENTIALJSON = 'credentials.json'
+TOKENJSON = 'token.json'
