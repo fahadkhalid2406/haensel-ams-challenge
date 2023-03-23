@@ -14,6 +14,8 @@ This project uses the following stack:
 
 ## Setup Guide
 - ### Enable the Gmail API and Create Credentials
+  To use the Gmail API, you need to enable it in the Google Cloud Console. Follow these steps below or you can follow <a 
+  href="https://developers.google.com/gmail/api/quickstart/python">Quick Start Gude for Python</a>
 
 # How To Use?
 python main.py
