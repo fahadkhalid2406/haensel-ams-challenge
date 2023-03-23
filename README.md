@@ -35,25 +35,9 @@ This project uses the following stack:
   ```python
   pip3 install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
   ```
-
-# How To Use?
-python main.py
-
-# What it does?
-The scripts is intended to scrub booking_tracking_detail  data
-
-# Configuration File
-The configuration file contains the configurations to delete the data from the target table.
-
-The configuration file `yaml` should look like this:
-
-```yaml
-db_url: <database endpoint>
-db_username: <database username>
-db_password: <database password>
-db_port: <database port>
-schema: <schema_name>
-start_date: <start date for deletion>
-end_date: <end date for deletion>
-batch_size: <no of days>
-```
+- ### Run The Code
+  - Clone or download the code from the repository.
+  - Place the "credentials.json" file in the directory
+  - Modify the Recipent Email under env_varibales.py
+  - Modify the Subject & Body of the email
+  - 
